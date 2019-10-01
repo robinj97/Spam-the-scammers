@@ -27,4 +27,4 @@ for name in names:
     })
 
     # Prints out what it is sending
-    print("sending " + str(username) "and " + str(password)
+    print("sending " + str(username) + "and " + str(password))
