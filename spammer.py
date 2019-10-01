@@ -21,7 +21,7 @@ for name in names:
     password = ''.join(random.choice(chars) for i in range(10))
 
     # Handles sending the request to the webpage
-    requests.post(url,allow_redirects=False,data= {
+    requests.post(url,allow_redirects=False, data= {
         'auid2yjauysd2uasdasdasd': username,
         'kjauysd6sAJSDhyui2yasd': password
     })
