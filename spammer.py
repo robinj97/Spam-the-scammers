@@ -28,4 +28,4 @@ for name in names:
 
     # Prints out what it is sending
 
-    print('sending username %s and password %s' %(username,password))
+    print('sending username %s and password %s' %(username, password))
